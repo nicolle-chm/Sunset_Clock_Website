@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Windows Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="image2.jpg" />
+      <div class="overlay-box"></div> 
+      <h1 id="current-time"></h1>
+      <div class="quotes">
+        <h2>If it doesn't challenge you, it won't change you.</h2>
+      </div>
+    </div>
+
+    <script>
+      let time = document.getElementById("current-time");
+
+      setInterval(() => {
+        let d = new Date();
+        time.innerHTML = d.toLocaleTimeString();
+      }, 1000);
+    </script>
+  </body>
+</html>
