@@ -1,3 +1,2 @@
 # clock
-Sunset clock
-https://nicolle-chm.github.io/clock/
+Sunset clock [here](https://nicolle-chm.github.io/Sunset_Clock_Website/)
